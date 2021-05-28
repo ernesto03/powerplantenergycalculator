@@ -4,7 +4,9 @@
 
 The readme file explains how to run the Powerplant Energy Calculator software on your computer smoothly.
 
+## Instalation
+
+
 ## Lisence and copyright
 
 © Ernest Lassman Kayembe *aka* chulolinux
-
