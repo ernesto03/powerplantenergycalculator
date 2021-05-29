@@ -8,10 +8,9 @@ The readme file explains how to run the Powerplant Energy Calculator software on
 ## Instalation
 
 
-**Pre-requirements:**
+**Ubuntu Pre-requirements:**
 
 Install Docker [click here](https://docs.docker.com/engine/install/ubuntu/)
-
 Ubuntu 20.04+
 
 **Ubuntu:**
