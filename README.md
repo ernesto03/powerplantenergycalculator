@@ -51,7 +51,8 @@ Create a *.json* file on your computer and save it.
 
 example: "load", "fuels","gas", "powerplants", "name", etc..
 
-Do not change all the values. Values are after the ':'.
+**Do not change all the values. Values are after the ':'.**
+
 example: "500", "13.4", "460", "gasfired", "tj1, etc..
 
 **Only the values of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax".**
