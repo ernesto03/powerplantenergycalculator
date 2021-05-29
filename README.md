@@ -42,7 +42,20 @@ Enjoy!
 
 As the app is now running on your computer inside a docker image, open your browser.
 
-Create a .json file on your computer and use the following structure.
+Create a *.json* file on your computer and save it. 
+
+**Only use the following structure/layout.**
+**Do not change the structure/layout in any way.**
+
+**Do not change the keys. The keys are before the ':' .**
+
+example: "load", "fuels","gas", "powerplants", "name", etc..
+
+Do not change all the values. Values are after the ':'.
+example: "500", "13.4", "460", "gasfired", "tj1, etc..
+
+**Only the values of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax".**
+
 ```json
 {
   "load": 500,
@@ -101,10 +114,11 @@ Create a .json file on your computer and use the following structure.
 ```
 
 
-Write this address inside your browser 
+Write the following address inside your browser 
 ```
 http://localhost:8888/productionplan
 ```
+
 
 
 
