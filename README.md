@@ -24,10 +24,10 @@ Go into the map of the application you saved the file.
 ```sh
 cd powerplantenergycalculator-main
 ```
-Build the docker image for this app and replace <nameapp> by a name of your chosing.
+Build the docker image for this app and replace *nameapp* by a name of your chosing.
 
 ```sh
-sudo docker build -t <nameapp> .
+sudo docker build -t nameapp .
 ```
 
 
