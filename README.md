@@ -11,15 +11,22 @@ The readme file explains how to run the Powerplant Energy Calculator software on
 **Ubuntu Pre-requirements:**
 
 Install Docker [click here](https://docs.docker.com/engine/install/ubuntu/)
+
 Ubuntu 20.04+
 
 **Ubuntu:**
 
 Download and extract the application on your computer by clicking [here](https://github.com/ernesto03/powerplantenergycalculator/archive/refs/heads/main.zip).
 
+Open Terminal
+
 Go into the map of the application you saved the file.
 ```sh
 cd powerplantenergycalculator-main
+```
+Build the docker image for this app
+```sh
+sudo docker build -t dockerjobexam2 .
 ```
 
 
