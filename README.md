@@ -9,7 +9,7 @@ The readme file explains how to run the Powerplant Energy Calculator software on
 
 For linux users:
 
-First download the application on your computer by clicking here.
+First download the application on your computer by clicking [here](https://github.com/ernesto03/powerplantenergycalculator.git).
 
 
 
