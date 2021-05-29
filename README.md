@@ -41,6 +41,14 @@ Enjoy!
 
 ## Usage
 
+As the app is now running on your computer inside a docker image, open your browser.
+
+Write this address inside your browser 
+```
+localhost:8888/productionplan
+
+```
+
 
 ## Aditional info
 
