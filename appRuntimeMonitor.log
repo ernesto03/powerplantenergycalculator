@@ -1,0 +1,16 @@
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Sending packet OPEN data {'sid': '7a9504cd6c364e0587edb2a15c41717f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Sending packet MESSAGE data 0
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Received packet MESSAGE data 0/showall
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Sending packet MESSAGE data 0/showall
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Received request to upgrade to websocket
+engineio.server - INFO - 7a9504cd6c364e0587edb2a15c41717f: Upgrade to websocket successful
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Sending packet OPEN data {'sid': '7835247dd2eb4d02b49112ab9a271157', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Sending packet MESSAGE data 0
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Received packet MESSAGE data 0/showall
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Sending packet MESSAGE data 0/showall
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Received request to upgrade to websocket
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Upgrade to websocket successful
+socketio.server - INFO - emitting event "newfiles" to all [/showall]
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Sending packet MESSAGE data 2/showall,["newfiles",{"payload_j":{"load":500,"fuels":{"gas(euro/MWh)":13.4,"kerosine(euro/MWh)":50.8,"co2(euro/ton)":20,"wind(%)":100},"powerplants":[{"name":"gasfiredbig1","type":"gasfired","efficiency":0.53,"pmin":100,"pmax":460},{"name":"gasfiredbig2","type":"gasfired","efficiency":0.53,"pmin":100,"pmax":460},{"name":"gasfiredsomewhatsmaller","type":"gasfired","efficiency":0.37,"pmin":40,"pmax":210},{"name":"tj1","type":"turbojet","efficiency":0.3,"pmin":0,"pmax":160},{"name":"windpark1","type":"windturbine","efficiency":1,"pmin":0,"pmax":150},{"name":"windpark2","type":"windturbine","efficiency":1,"pmin":0,"pmax":36}]},"answer_j":[{"name":"windpark1","p":150.0},{"name":"windpark2","p":36.0},{"name":"gasfired1","p":243.8},{"name":"gasfired2","p":70.2},{"name":"gasfiredsomewhatsmaller","p":0},{"name":"tj1","p":0}]}]
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Received packet PING data None
+engineio.server - INFO - 7835247dd2eb4d02b49112ab9a271157: Sending packet PONG data None
