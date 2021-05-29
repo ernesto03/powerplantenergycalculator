@@ -42,7 +42,7 @@ Enjoy!
 
 As the app is now running on your computer inside a docker image, open your browser.
 
-Create a *.json* file on your computer and save it. 
+Create a *.json* file by copy and pasting the following code, and save it on your computer.
 
 **Only use the following structure/layout.**
 **Do not change the structure/layout in any way.**
@@ -55,7 +55,7 @@ example: "load", "fuels","gas", "powerplants", "name", etc..
 
 example: "500", "13.4", "460", "gasfired", "tj1, etc..
 
-**Only the values of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax".**
+**Only the VALUES of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax".**
 
 ```json
 {
@@ -120,10 +120,23 @@ Write the following address inside your browser
 http://localhost:8888/productionplan
 ```
 
+Click on "Browse" in the select a file box.
+![uploadfilebox](https://user-images.githubusercontent.com/65361748/120082510-c28b5900-c0c3-11eb-89f7-a0065bb043b6.png)
 
+Select the .json file you just created.
+
+Click on the blue button *Upload*.
+
+You will be redirected to the page with the calculated powerplantplan.
+
+To stop the application from running
 
 
 ## Aditional info
+
+It is possible to extract a log file.
+
+To do this use the following command after exiting the application
 
 
 ## Contributions
