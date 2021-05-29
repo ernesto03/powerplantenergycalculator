@@ -24,15 +24,13 @@ Go into the map of the application.
 ```sh
 cd powerplantenergycalculator-main
 ```
-Build the docker image for this app by running the command. Replace *nameapp* with a name of your chosing.
+Build the docker image for this app by running the command. Replace *nameimage* with a name of your chosing.
 ```sh
-sudo docker build -t nameapp .
+sudo docker build -t nameimage .
 ```
-Run the docker image and replace *nameapp* by the name you've chosen when building the image. 
-
-And replace the *namecontainer* with a name of your choice, different to the *nameapp*.
+Run the docker image and replace *nameimage* by the name you've chosen when building the image. 
 ```sh
-sudo docker run -p 8888:8888 namecontainer nameapp
+sudo docker run -p 8888:8888 nameimage
 ```
 Now the application is running on your computer.
 
@@ -132,18 +130,31 @@ Click on the blue button *Upload*.
 
 You will be redirected to the page with the calculated powerplantplan.
 
-To stop the application from running
+To stop the application from running, use the following command to find the containerID which runs the application.
+```sh
+sudo docker ps
+```
+output
 
+![containerlisting](https://user-images.githubusercontent.com/65361748/120083887-32054680-c0cc-11eb-9314-0235fe99238d.png)
+
+Now you can write the following command with the containerID to stop the container and image from running.
+sudo docker stop <containerID>
 
 ## Aditional info
 
 It is possible to extract a log file.
 
-To do this use the following command after exiting the application
+Use the following command an replace $filepath with *appRuntimeMonitor.log* and $output_path with a path to the file you want to save the log.
 
+example $output_path: ~/Desktop/log.txt
+```sh
+sudo docker run <appimage> cat $file_path > $output_path
+```
 
 ## Contributions
 
+For contributions please leave comment or send me an email first.
 
 ## Lisence and copyright
 
