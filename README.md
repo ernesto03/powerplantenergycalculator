@@ -29,9 +29,13 @@ Build the docker image for this app and replace *nameapp* by a name of your chos
 ```sh
 sudo docker build -t nameapp .
 ```
-
-
-
+Run the docker image and replace *nameapp* by the name you chose when building the image
+```sh
+sudo docker run -p 8888:8888 nameapp
+```
+Now the application is running on your computer.
+Read the rebrique **Usage** to understand how it works.
+Enjoy!
 
 
 ## Usage
