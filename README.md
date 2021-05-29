@@ -28,9 +28,11 @@ Build the docker image for this app by running the command. Replace *nameapp* wi
 ```sh
 sudo docker build -t nameapp .
 ```
-Run the docker image and replace *nameapp* by the name you've chosen when building the image
+Run the docker image and replace *nameapp* by the name you've chosen when building the image. 
+
+And replace the *namecontainer* with a name of your choice, different to the *nameapp*.
 ```sh
-sudo docker run -p 8888:8888 nameapp
+sudo docker run -p 8888:8888 namecontainer nameapp
 ```
 Now the application is running on your computer.
 
@@ -121,6 +123,7 @@ http://localhost:8888/productionplan
 ```
 
 Click on "Browse" in the select a file box.
+
 ![uploadfilebox](https://user-images.githubusercontent.com/65361748/120082510-c28b5900-c0c3-11eb-89f7-a0065bb043b6.png)
 
 Select the .json file you just created.
