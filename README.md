@@ -47,6 +47,20 @@ Now the application is running on your computer
 Read the next chapter **Usage** to understand how it works
 Enjoy!
 
+**Windows**
+
+Download the application on your computer by clicking [here](https://github.com/ernesto03/powerplantenergycalculator/archive/refs/heads/main.zip).
+
+Extract the application folder with WinZip or WinRar
+
+Open Command-Prompt with Run as Administrator option
+
+Go into the extracted folder
+```sh
+cd powerplantenergycalculator-main
+```
+
+
 
 ## Usage
 
