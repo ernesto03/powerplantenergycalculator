@@ -18,7 +18,7 @@ Ubuntu 20.04+
 
 Install Docker [click here](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10)
 
-The system will install WSL2, set it as default version and chose ubuntu as distribution. Instructions [click here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
+The system will install WSL2, set it as default version and chose ubuntu in windows appstore. Instructions [click here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
 
 
 Windows 10
