@@ -17,12 +17,17 @@ Ubuntu 20.04+
 **Windows Pre-requirements:**
 
 Install Docker [click here](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10)
+
 Windows 10
 
 **Ubuntu:**
 
-Download and extract the application on your computer by clicking [here](https://github.com/ernesto03/powerplantenergycalculator/archive/refs/heads/main.zip).
+Download the application on your computer by clicking [here](https://github.com/ernesto03/powerplantenergycalculator/archive/refs/heads/main.zip).
 
+Extract the application folder
+```sh
+unzip powerplantenergycalculator-main.zip
+```
 Open Terminal
 
 Go into the extracted folder
