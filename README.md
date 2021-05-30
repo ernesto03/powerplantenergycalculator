@@ -89,13 +89,13 @@ Create a *.json* file by copy and pasting the following code, and save it on you
 
 **Do not change the keys. The keys are before the ':' .**
 
-example: "load", "fuels","gas", "powerplants", "name", etc.
+example: "load", "fuels","gas", "powerplants", "name",..
 
-**Do not change all the values. Values are after the ':' **
+**Do not change all the values. Values are after the ':'**
 
-example: "500", "13.4", "460", "gasfired", "tj1, etc.
+example: "500", "13.4", "460", "gasfired", "tj1,..
 
-**Only the VALUES of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax" **
+**Only the VALUES of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax"**
 
 ```json
 {
