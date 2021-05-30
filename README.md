@@ -194,8 +194,14 @@ It is possible to extract a log file
 Use the following command an replace $filepath with *appRuntimeMonitor.log* and $output_path with a path to the file you want to save the log
 
 example $output_path: ~/Desktop/log.txt
+
+**ubuntu:**
 ```sh
 sudo docker run $appimage cat $file_path > $output_path
+```
+**windows:**
+```sh
+docker run $appimage cat $file_path > $output_path
 ```
 
 ## Contributions
