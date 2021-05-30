@@ -60,7 +60,7 @@ Run Docker Desktop
 
 Open Command-prompt / Run as administrator
 
-Go into the extracted folder
+Go into the extracted folder via command-prompt
 ```sh
 cd powerplantenergycalculator-main
 ```
