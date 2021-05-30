@@ -206,7 +206,7 @@ docker run $appimage cat $file_path > $output_path
 
 ## Contributions
 
-For contributions please leave comment or send me an email first.
+For contributions please send me a message on twitter first.
 
 ## Lisence and copyright
 
