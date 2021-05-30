@@ -11,18 +11,21 @@ If multiple browsers are connected to the same webpage endpoint /productionplan,
 they will also be able to see the generated result.
 """
 # Start with a basic flask app webpage.
-import eventlet
+try:
+    import eventlet
+    # It is recommended to apply eventlet at the top of the main scripts
+    eventlet.monkey_patch()
 
-eventlet.monkey_patch()
-# It is recommended to apply eventlet at the top of the main scripts
-from flask_socketio import SocketIO
-from flask import Flask, render_template, request, session, jsonify
-from threading import Thread, Event
-import json
-import os
-from build_json_file import receive_file
-from filemanagement import keeponefile
-import logging
+    from flask_socketio import SocketIO
+    from flask import Flask, render_template, request, session, jsonify
+    from threading import Thread, Event
+    import json
+    import os
+    from build_json_file import receive_file
+    from filemanagement import keeponefile
+    import logging
+except Exception as e:
+    logging.warning(f"Error in main.py imports= {e}")
 
 async_mode = "eventlet"
 app = Flask(__name__)
