@@ -18,8 +18,7 @@ Ubuntu 20.04+
 
 Install Docker [click here](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10)
 
-The system will install WSL2, set it as default version and chose ubuntu 20.04 LTS in windows appstore. Instructions [click here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
-
+The system will install WSL2, set it as default version. Instructions [click here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
 
 Windows 10
 
@@ -56,14 +55,26 @@ Download the application on your computer by clicking [here](https://github.com/
 
 Extract the application folder with WinZip or WinRar
 
-Open Command-Prompt and Run as Administrator
+Run Docker Desktop
+
+Open Command-prompt / Run as administrator
 
 Go into the extracted folder
 ```sh
 cd powerplantenergycalculator-main
 ```
+Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing
+```sh
+sudo docker build -t $nameimage .
+```
+Run the docker image and replace *$nameimage* by the name you've chosen when building the image
+```sh
+sudo docker run -p 8888:8888 $nameimage
+```
+Now the application is running on your computer
 
-
+Read the next chapter **Usage** to understand how it works
+Enjoy!
 
 ## Usage
 
