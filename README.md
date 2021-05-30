@@ -66,11 +66,11 @@ cd powerplantenergycalculator-main
 ```
 Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing
 ```sh
-sudo docker build -t $nameimage .
+docker build -t $nameimage .
 ```
 Run the docker image and replace *$nameimage* by the name you've chosen when building the image
 ```sh
-sudo docker run -p 8888:8888 $nameimage
+docker run -p 8888:8888 $nameimage
 ```
 Now the application is running on your computer
 
