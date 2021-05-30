@@ -47,6 +47,7 @@ sudo docker run -p 8888:8888 $nameimage
 Now the application is running on your computer
 
 Read the next chapter **Usage** to understand how it works
+
 Enjoy!
 
 **Windows:**
@@ -74,6 +75,7 @@ sudo docker run -p 8888:8888 $nameimage
 Now the application is running on your computer
 
 Read the next chapter **Usage** to understand how it works
+
 Enjoy!
 
 ## Usage
@@ -168,6 +170,11 @@ Click on the blue button *Upload*.
 
 You will be redirected to the page with the calculated powerplantplan
 
+**Windows:**
+
+To stop the application, use docker desktop.
+
+**Ubuntu:**
 To stop the application from running, use the following command to find the containerID which runs the application
 ```sh
 sudo docker ps
