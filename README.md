@@ -20,29 +20,29 @@ Download and extract the application on your computer by clicking [here](https:/
 
 Open Terminal
 
-Go into the map of the application.
+Go into the extracted folder
 ```sh
 cd powerplantenergycalculator-main
 ```
-Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing.
+Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing
 ```sh
 sudo docker build -t $nameimage .
 ```
-Run the docker image and replace *$nameimage* by the name you've chosen when building the image. 
+Run the docker image and replace *$nameimage* by the name you've chosen when building the image
 ```sh
 sudo docker run -p 8888:8888 $nameimage
 ```
-Now the application is running on your computer.
+Now the application is running on your computer
 
-Read the next chapter **Usage** to understand how it works.
+Read the next chapter **Usage** to understand how it works
 Enjoy!
 
 
 ## Usage
 
-As the app is now running on your computer inside a docker image, open your browser.
+As the app is now running on your computer inside a docker image, open your browser
 
-Create a *.json* file by copy and pasting the following code, and save it on your computer.
+Create a *.json* file by copy and pasting the following code, and save it on your computer
 
 **Only use the following structure/layout.**
 **Do not change the structure/layout in any way.**
@@ -51,11 +51,11 @@ Create a *.json* file by copy and pasting the following code, and save it on you
 
 example: "load", "fuels","gas", "powerplants", "name", etc..
 
-**Do not change all the values. Values are after the ':'.**
+**Do not change all the values. Values are after the ':' **
 
 example: "500", "13.4", "460", "gasfired", "tj1, etc..
 
-**Only the VALUES of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax".**
+**Only the VALUES of the following keys can be changed: "load", "wind", "gas", "kerosine", "co2", "efficiency", "pmin", "pmax" **
 
 ```json
 {
@@ -120,17 +120,17 @@ Write the following address inside your browser
 http://localhost:8888/productionplan
 ```
 
-Click on "Browse" in the select a file box.
+Click on "Browse" in the select a file box
 
 ![uploadfilebox](https://user-images.githubusercontent.com/65361748/120082510-c28b5900-c0c3-11eb-89f7-a0065bb043b6.png)
 
-Select the .json file you just created.
+Select the .json file you just created
 
 Click on the blue button *Upload*.
 
-You will be redirected to the page with the calculated powerplantplan.
+You will be redirected to the page with the calculated powerplantplan
 
-To stop the application from running, use the following command to find the containerID which runs the application.
+To stop the application from running, use the following command to find the containerID which runs the application
 ```sh
 sudo docker ps
 ```
@@ -138,14 +138,15 @@ output
 
 ![containerlisting](https://user-images.githubusercontent.com/65361748/120083887-32054680-c0cc-11eb-9314-0235fe99238d.png)
 
-Now you can write the following command with the *$containerID* to stop the container and image from running.
+Now you can write the following command with the *$containerID* to stop the container and image from running
+```sh
 sudo docker stop $containerID
-
+```
 ## Aditional info
 
-It is possible to extract a log file.
+It is possible to extract a log file
 
-Use the following command an replace $filepath with *appRuntimeMonitor.log* and $output_path with a path to the file you want to save the log.
+Use the following command an replace $filepath with *appRuntimeMonitor.log* and $output_path with a path to the file you want to save the log
 
 example $output_path: ~/Desktop/log.txt
 ```sh
