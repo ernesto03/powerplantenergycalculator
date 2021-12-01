@@ -234,7 +234,7 @@ sudo docker stop $containerID
 ```
 If that does not stop the container please run the following command:
 ```sh
-sudo fuser -k 8000/tcp
+sudo fuser -k 8888/tcp
 ```
 
 ## Aditional info
