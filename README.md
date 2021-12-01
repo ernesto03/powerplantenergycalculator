@@ -209,7 +209,7 @@ Click on "Browse" in the select a file box
 
 ![uploadfilebox](https://user-images.githubusercontent.com/65361748/120082510-c28b5900-c0c3-11eb-89f7-a0065bb043b6.png)
 
-Select the .json file you just created
+Select the payload.json file you just created
 
 Click on the blue button *Upload*.
 
