@@ -1,5 +1,5 @@
 # start from base
-FROM python:3
+FROM python:3.8
 LABEL maintainer="ernest.lassman.kayembe@hotmail.com"
 # We copy just the requirements.txt first to leverage Docker cache
 WORKDIR /app
