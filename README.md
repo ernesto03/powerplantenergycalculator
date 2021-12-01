@@ -72,6 +72,51 @@ Run the docker image and replace *$nameimage* by the name you've chosen when bui
 ```sh
 docker run -p 8888:8888 $nameimage
 ```
+!!!! IF AN EXPECTED ERROR OCCURES DURING THE RUN OF DOCKER. DO THE FOLLOWING: !!!!
+
+**Ubuntu**
+Install PIP by following the instruction on this page:
+https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
+
+Run the following commands
+```sh
+pip install eventlet
+```
+```sh
+pip install Flask-SocketIO
+```
+
+Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing
+```sh
+docker build -t $nameimage .
+```
+Run the docker image and replace *$nameimage* by the name you've chosen when building the image
+```sh
+docker run -p 8888:8888 $nameimage
+```
+
+**Windows**
+Install PIP by following the instruction on this page:
+https://phoenixnap.com/kb/install-pip-windows
+
+Run the following commands
+```sh
+pip install eventlet
+```
+```sh
+pip install Flask-SocketIO
+```
+
+Build the docker image for this app by running the command. Replace *$nameimage* with a name of your chosing
+```sh
+docker build -t $nameimage .
+```
+Run the docker image and replace *$nameimage* by the name you've chosen when building the image
+```sh
+docker run -p 8888:8888 $nameimage
+```
+
+
 Now the application is running on your computer
 
 Read the next chapter **Usage** to understand how it works
