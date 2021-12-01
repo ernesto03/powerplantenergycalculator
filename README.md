@@ -232,6 +232,11 @@ Now you can write the following command with the *$containerID* to stop the cont
 ```sh
 sudo docker stop $containerID
 ```
+If that does not stop the container please run the following command:
+```sh
+sudo fuser -k 8000/tcp
+```
+
 ## Aditional info
 
 It is possible to extract a log file
