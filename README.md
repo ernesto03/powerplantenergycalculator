@@ -127,7 +127,7 @@ Enjoy!
 
 As the app is now running on your computer inside a docker image, open your browser
 
-Create a *.json* file by copy and pasting the following code, and save it on your computer
+Create a *payload.json* file by copy and pasting the following code, and save it on your computer
 
 **Only use the following structure/layout.**
 **Do not change the structure/layout in any way.**
